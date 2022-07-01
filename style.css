@@ -1,0 +1,167 @@
+html{
+  scroll-behavior: smooth;
+}
+body{
+  font-family:'Times New Roman', Times, serif;
+  margin: 0;
+}
+
+h1{ font-size: 3.5cm;}
+h2{ font-size: 1.5cm;}
+h3{ font-size: 2.7cm;}
+p{ font-size: 0.7cm;}
+ul{ list-style:none;}
+li{ font-size: 0.5cm;}
+
+button{
+  font-style: 1.25cm;
+  font-weight: bols;
+  padding: 10px 30px;
+  border-radius: 10px;
+  border: 1px solid rgba(0,0,0,0.5);
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+  color: white;
+  background-color: blueviolet;
+  margin:center;
+}
+button:hover{
+  background-color: rgba(101,33,145);
+}
+.container{
+  max-width: 1400px;
+  margin:auto;
+}
+
+.logo{
+  margin: 0.6em;
+  font-weight: bold;
+  color: blueviolet;
+  font-size: 1.3cm;
+  text-align: center;
+}
+.logo1{
+  margin: 0em;
+  font-weight: bold;
+  color: rgb(22, 2, 41);
+  font-size: 0.8cm;
+  text-align: center;
+}
+#cosas-considerar{
+  padding: 30px 20px;
+  background-color: rgba(245,245,245);
+}
+
+#cosas-considerar .container{
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+#cosas-considerar nav{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-bottom: 25px;
+}
+#cosas-considerar a{
+  font-size:20px;
+  padding: 5px 12px;
+  text-decoration:none ;
+  font-weight: bold;
+  color: black;
+}
+  
+#cosas-considerar a:hover{
+    color: blueviolet;
+}
+
+#inicio{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 90vh;
+  color: white;
+  background-image: linear-gradient(
+    0deg,
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)
+  )
+   ,url("https://media.gettyimages.com/photos/modern-empty-cafe-or-night-club-closed-down-during-pandemic-lockdown-picture-id1221884267?k=20&m=1221884267&s=612x612&w=0&h=XQjAObOtpqO64XrrSgs2LLohKwQyklrg2JpymhSLR-I=");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+}
+#inicio h1{
+  color: aliceblue;
+}
+
+#parte1{
+  background-color: rgb(30,30,30);
+  color: white;
+  text-align: center;
+  background-position: center center;
+}
+#parte1 .container{
+  padding: 100px 0px;
+}
+#parte1 h2{
+  margin-top: 0;
+  font-size: 1.3cm;
+}
+#parte1 p{
+  display: none;
+}
+
+#parte1 .carta{
+  background-position: center center;
+  background-size: cover;
+  padding:50px;
+  margin:30px;
+  border-radius:15px ;
+}
+
+#imagen-carta{
+  border-radius: 50%;
+  border-width: 2px;
+  border-style: solid;
+}
+#Funcion-bar .container{
+  text-align: center;
+  padding: 10px 12px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+#Funcion-bar .texto{
+  width: 10px;
+  max-width: 400px;
+  text-align:initial ;
+  padding-left: 30px;
+  flex-direction: column;
+  justify-content: center;
+}
+label{
+  display: block;
+}
+input,label{
+  margin: .4rem 0;
+}
+footer{
+  background-color: rgba(230,230,230);
+}
+footer p{
+ font-size:0.5cm;
+ margin: 0;
+ padding: 12px;
+ color: rgb(100,3¡100,100);
+}
+
+footer .container{
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+ }
